@@ -1,19 +1,20 @@
 <!doctype html>
 <head>
-  <meta charset="utf-8">
-  <title>Codice Fiscale</title>
-  <link rel="stylesheet" type="text/css" href="css/materialize.min.css"/>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  </head>
+	<meta charset="utf-8">
+	<title>Codice Fiscale</title>
+	<link rel="stylesheet" type="text/css" href="css/materialize.min.css"/>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
 <body>
 	<nav class="light-blue lighten-1" role="navigation">
 		<div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Codice Fiscale</a>
-		<ul id="nav-mobile" class="right hide-on-med-and-down">
-		<li><a href="https://www.github.com/giova239">Realizzato da: Stevanato Giovanni</a></li>
-        <li><a href="https://www.itiszuccante.gov.it/">Zuccante</a></li>
-		<li><a href="http://www.materializecss.com/">Materialized CSS</a></li>
-      </ul></div>
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li><a href="https://www.github.com/giova239">Realizzato da: Stevanato Giovanni</a></li>
+				<li><a href="https://www.itiszuccante.gov.it/">Zuccante</a></li>
+				<li><a href="http://www.materializecss.com/">Materialize CSS</a></li>
+			</ul></div>
 	</nav>
+	<br>
 	<div class="container">
 		<div class="input-field">
 			<input type="text" title="nome" id="name" required class="validate"><br>
@@ -24,7 +25,7 @@
 			<label for="CONOME">CONOME</label>
 		</div>
 		<div class="input-field">
-			<input type="date" title="data" id="birthdate" class="datepicker" data-rule-dateWithMoment="true" required>
+			<input type="text" title="data" id="birthdate" class="datepicker" data-rule-dateWithMoment="true" required>
 			<label>DATA DI NASCITA</label>
 		</div>
 		<div class="input-field">
@@ -79,27 +80,27 @@
 		</div>
 		<div class="input-field">
 			<form>
-					<label>
-						<input type="radio" name="gender" id="m" value="male" class="p1" required checked/>
-						<span>M</span>
-					</label>
-					<label>
-						<input type="radio" name="gender" id="f" value="female" class="p2" required>
-						<span>F</span>
-					</label>
+				<label>
+					<input type="radio" name="gender" id="m" value="male" class="p1" required checked/>
+					<span>M</span>
+				</label>
+				<label>
+					<input type="radio" name="gender" id="f" value="female" class="p2" required>
+					<span>F</span>
+				</label>
 			</form>
 		</div>
 		<br>
-			<div class="row">
-				<button class="btn waves_effect light-blue lighten-1 col s2 offset-s5" type="button" onclick="calcola()">CALCOLA</button><br><br>
-				<output name="result" id="output"></output>
-			</div>
-		</div>	
+		<div class="row">
+			<button class="btn waves_effect light-blue lighten-1 col s2 offset-s5" type="button" onclick="calcola()">CALCOLA</button><br><br>
+			<output name="result" id="output"></output>
+		</div>
+	</div>	
 	<!--  Scripts-->
-  <script type="text/javascript" src="js/calcolatoreCodiceFiscale.js"></script>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script type="text/javascript" src="http://materializecss.com/dist/js/materialize.js"></script>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
-  <script type="text/javascript" src="js/init.js"></script>
+	<script type="text/javascript" src="js/calcolatoreCodiceFiscale.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="http://materializecss.com/dist/js/materialize.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/init.js"></script>
 </body>
 </html>
