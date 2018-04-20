@@ -1,0 +1,41 @@
+div{
+	color: black;
+	font-size:120%;
+	font-style: inherit;
+}
+a{
+	color: blueviolet;
+	font-size: 500%;
+	font-style: italic;
+	background: aquamarine;
+}
+input{
+	position: absolute;
+	left: 170px;
+}
+.out{
+	background:url("images/number-bg.png") no-repeat scroll 0 0 transparent;
+	border:0 none;
+	color:#FFFFFF;
+	height:17px;
+	margin:0 13px 0 0;
+	text-align:center;
+	width:17px; 
+}
+button{
+	position: absolute;
+	left: 85px;
+}
+.p1{
+	position: absolute;
+	left: 45px;
+}
+.p2{
+	position: absolute;
+	left: 90px;
+}
+output{
+	color: blueviolet;
+	font-size: 300%;
+	font-style: italic;
+}
